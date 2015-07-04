@@ -2,7 +2,7 @@ FROM centos:centos6
 
 RUN yum install -q -y unzip
 
-ADD agent.installer.linux.gtk.x86_64_*.zip /tmp/
+ADD /Users/abhinesh/Downloads/agent.installer.linux.gtk.x86_64_1.7.4002.20150429_1707.zip /tmp/
 
 RUN \
  unzip -qd /tmp/im /tmp/agent.installer.linux.gtk.x86_64_*.zip && \
